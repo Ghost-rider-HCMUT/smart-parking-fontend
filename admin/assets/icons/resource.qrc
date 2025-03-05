@@ -1,0 +1,24 @@
+<RCC>
+  <qresource prefix="/icons/blue">
+    <file>blue/log-out.svg</file>
+    <file>blue/chevron-right.svg</file>
+    <file>blue/arrow-left-circle.svg</file>
+    <file>blue/arrow-right-circle.svg</file>
+    <file>blue/bell.svg</file>
+    <file>blue/eye.svg</file>
+    <file>blue/eye-off.svg</file>
+    <file>blue/menu.svg</file>
+    <file>blue/user.svg</file>
+    <file>blue/bell.svg</file>
+    <file>blue/eye.svg</file>
+    <file>blue/eye-off.svg</file>
+    <file>blue/menu.svg</file>
+    <file>blue/user.svg</file>
+  </qresource>
+  <qresource prefix="/icons/black">
+    <file>black/activity.svg</file>
+    <file>black/bell.svg</file>
+    <file>black/eye.svg</file>
+    <file>black/user-plus.svg</file>
+  </qresource>
+</RCC>
