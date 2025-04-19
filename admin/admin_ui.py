@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'admin.ui'
+# Form implementation generated from reading ui file 'ui\admin.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.9
 #
@@ -132,15 +132,15 @@ class Ui_MainWindow(object):
         self.horizontalLayout_3 = QtWidgets.QHBoxLayout(self.icons)
         self.horizontalLayout_3.setSpacing(12)
         self.horizontalLayout_3.setObjectName("horizontalLayout_3")
-        self.btn_user = QtWidgets.QPushButton(self.icons)
-        self.btn_user.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
-        self.btn_user.setText("")
+        self.btn_logout = QtWidgets.QPushButton(self.icons)
+        self.btn_logout.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.btn_logout.setText("")
         icon5 = QtGui.QIcon()
         icon5.addPixmap(QtGui.QPixmap(":/icons/blue/blue/log-out.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
-        self.btn_user.setIcon(icon5)
-        self.btn_user.setIconSize(QtCore.QSize(20, 20))
-        self.btn_user.setObjectName("btn_user")
-        self.horizontalLayout_3.addWidget(self.btn_user, 0, QtCore.Qt.AlignRight)
+        self.btn_logout.setIcon(icon5)
+        self.btn_logout.setIconSize(QtCore.QSize(20, 20))
+        self.btn_logout.setObjectName("btn_logout")
+        self.horizontalLayout_3.addWidget(self.btn_logout, 0, QtCore.Qt.AlignRight)
         self.horizontalLayout_2.addWidget(self.icons, 0, QtCore.Qt.AlignRight)
         self.verticalLayout.addWidget(self.header)
         self.pages_list = QtWidgets.QStackedWidget(self.main)
