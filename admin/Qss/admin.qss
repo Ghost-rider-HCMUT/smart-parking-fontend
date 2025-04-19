@@ -81,3 +81,101 @@
 #menu_title_box {
     border-bottom: 2px solid #669999;
 }
+
+#page_2 {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Header */
+#page2Header {
+    background-color: #3498db;
+    border-radius: 10px;
+}
+
+#page2Title {
+    font-size: 25px !important;
+    font-weight: bold !important;
+    color: white !important;
+}
+
+/* Form */
+#formRegister {
+    background-color: white;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#formInfo {
+    padding: 10px;
+}
+
+/* Các ô nhập liệu */
+#boxFullname, #boxUsername, #boxPassword, #boxConfirmPassword, #boxPhone, #boxLocation, #boxPlate, #boxMonths {
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#boxFullname, #boxUsername, #boxPassword, #boxConfirmPassword, #boxPhone, #boxLocation, #boxPlate, #boxMonths {
+    border: 1px solid #ccc;
+}
+
+QLabel {
+    font-size: 14px;
+    color: #34495e;
+}
+
+QTextEdit {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+QTextEdit:focus {
+    border: 1px solid #3498db;
+}
+
+/* Nút đăng ký */
+#button_register {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+    width: 150px;
+}
+
+#button_register:hover {
+    background-color: #2980b9;
+}
+
+/* Tạo viền cho các ô nhập */
+QTextEdit {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 1px;
+}
+
+QTextEdit:focus {
+    border: 2px solid #3498db;
+}
+
+QComboBox {
+    font-size: 14px;  
+    padding-left:  5px;
+    border-radius: 2px;
+}  
+
+QComboBox::down-arrow {
+    width: 30px !important;   
+}
+    
+QComboBox QAbstractItemView {
+    font-size: 14px;  
+    height: 28px;     
+}
