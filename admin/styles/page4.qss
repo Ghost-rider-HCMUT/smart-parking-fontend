@@ -1,0 +1,14 @@
+/* Page 4 Styles */
+#page4 {
+    background-color: white;
+}
+
+#pageTitle {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+#description {
+    color: #7f8c8d;
+    font-size: 14px;
+}

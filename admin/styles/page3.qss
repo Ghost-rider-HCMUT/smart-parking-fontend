@@ -1,0 +1,237 @@
+/* Main styles for Page3UI */
+QWidget {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 11pt;
+    background-color: #f5f5f7;
+}
+
+QLabel {
+    color: #333;
+    font-weight: bold;
+    padding: 5px;
+}
+
+/* ComboBox styling */
+QComboBox {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    min-width: 150px;
+    background-color: white;
+}
+
+QComboBox:hover {
+    border: 1px solid #4a90e2;
+}
+
+QComboBox::drop-down {
+    border: none;
+    width: 20px;
+}
+
+/* LineEdit styling */
+QLineEdit {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 7px 10px;
+    background-color: white;
+    min-width: 250px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #4a90e2;
+}
+
+/* Button styling */
+QPushButton {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 15px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #357ae8;
+}
+
+QPushButton:pressed {
+    background-color: #2a5db0;
+}
+
+/* Table styling */
+QTableWidget {
+    alternate-background-color: #f9f9f9;
+    gridline-color: #ddd;
+    selection-background-color: #e7f0fd;
+    selection-color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+QTableWidget QHeaderView::section {
+    background-color: #3c78d8;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 6px;
+    border-right: 1px solid #5e97e8;
+    border-bottom: 1px solid #5e97e8;
+}
+
+QTableWidget QHeaderView::section:last {
+    border-right: none;
+}
+
+/* Scrollbar styling */
+QScrollBar:vertical {
+    border: none;
+    background: #f1f1f1;
+    width: 8px;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:vertical {
+    background: #c1c1c1;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #a1a1a1;
+}
+
+/* Specific element styling */
+#search_combo {
+    min-width: 180px;
+}
+
+#search_input {
+    min-width: 300px;
+}
+
+#search_button {
+    min-width: 100px;
+}
+
+#data_table {
+    margin-top: 10px;
+}/* Main styles for Page3UI */
+QWidget {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 11pt;
+    background-color: #f5f5f7;
+}
+
+QLabel {
+    color: #333;
+    font-weight: bold;
+    padding: 5px;
+}
+
+/* ComboBox styling */
+QComboBox {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    min-width: 150px;
+    background-color: white;
+}
+
+QComboBox:hover {
+    border: 1px solid #4a90e2;
+}
+
+QComboBox::drop-down {
+    border: none;
+    width: 20px;
+}
+
+/* LineEdit styling */
+QLineEdit {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 7px 10px;
+    background-color: white;
+    min-width: 250px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #4a90e2;
+}
+
+/* Button styling */
+QPushButton {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 15px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #357ae8;
+}
+
+QPushButton:pressed {
+    background-color: #2a5db0;
+}
+
+/* Table styling */
+QTableWidget {
+    alternate-background-color: #f9f9f9;
+    gridline-color: #ddd;
+    selection-background-color: #e7f0fd;
+    selection-color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+QTableWidget QHeaderView::section {
+    background-color: #3c78d8;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 6px;
+    border-right: 1px solid #5e97e8;
+    border-bottom: 1px solid #5e97e8;
+}
+
+QTableWidget QHeaderView::section:last {
+    border-right: none;
+}
+
+/* Scrollbar styling */
+QScrollBar:vertical {
+    border: none;
+    background: #f1f1f1;
+    width: 8px;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:vertical {
+    background: #c1c1c1;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #a1a1a1;
+}
+
+/* Specific element styling */
+#search_combo {
+    min-width: 180px;
+}
+
+#search_input {
+    min-width: 300px;
+}
+
+#search_button {
+    min-width: 100px;
+}
+
+#data_table {
+    margin-top: 10px;
+}
